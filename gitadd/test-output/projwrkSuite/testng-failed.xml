@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [projwrkSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.AddProducts">
+        <methods>
+          <include name="Tc_alertquantity"/>
+          <include name="afterTest"/>
+          <include name="Tc_addproduct"/>
+          <include name="beforeTest"/>
+          <include name="Tc_productname"/>
+        </methods>
+      </class> <!-- testcases.AddProducts -->
+      <class name="testcases.Loginpagetest">
+        <methods>
+          <include name="Tc_username"/>
+          <include name="afterTest"/>
+          <include name="Tc_password"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testcases.Loginpagetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [projwrkSuite] -->
